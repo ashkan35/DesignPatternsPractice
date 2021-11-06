@@ -1,4 +1,6 @@
-﻿namespace Factory
+﻿using Factory.EmployeeManager;
+
+namespace Factory
 {
     public class EmployeeManagerFactory
     {
