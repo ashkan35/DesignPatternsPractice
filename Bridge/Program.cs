@@ -6,7 +6,9 @@ namespace Bridge
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Payment order = new NetBankingPayment();
+            order.PaymentSystem = new MellatPaymentSystem();
+            order.MakePayment();
         }
     }
 }
