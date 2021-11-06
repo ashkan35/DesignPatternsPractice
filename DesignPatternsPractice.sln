@@ -13,15 +13,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "Abstract
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{85F7598F-44B4-4972-AE40-6851BD0CC55F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShallowAndDeepCopy", "ShallowAndDeepCopy\ShallowAndDeepCopy.csproj", "{28578BE0-DF75-4BAC-84C2-970375AFD4FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShallowAndDeepCopy", "ShallowAndDeepCopy\ShallowAndDeepCopy.csproj", "{28578BE0-DF75-4BAC-84C2-970375AFD4FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueReferenceTypes", "ValueRefrenceTypes\ValueReferenceTypes.csproj", "{7E09AB9A-32DF-44C1-8719-B207542299E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueReferenceTypes", "ValueRefrenceTypes\ValueReferenceTypes.csproj", "{7E09AB9A-32DF-44C1-8719-B207542299E0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{6872494A-C0D9-489E-A22D-E717449587AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{D1348602-3117-471B-A253-C31D65784196}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{D1348602-3117-471B-A253-C31D65784196}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{3BF7AB18-B324-48E6-9F69-DD90CA7452F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{B37228FA-91C3-437D-A48F-899348B35F85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{D1348602-3117-471B-A253-C31D65784196}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1348602-3117-471B-A253-C31D65784196}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1348602-3117-471B-A253-C31D65784196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B37228FA-91C3-437D-A48F-899348B35F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B37228FA-91C3-437D-A48F-899348B35F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B37228FA-91C3-437D-A48F-899348B35F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B37228FA-91C3-437D-A48F-899348B35F85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
