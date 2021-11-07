@@ -8,7 +8,7 @@ namespace Adapter
         public override void GetEmployees()
         {
             var result = JsonConvert.SerializeObject(_employees, Formatting.Indented);
-            File.AppendAllText("D:\\xmlText",result);
+            File.AppendAllText("D:\\xmlText.txt",result);
         }
     }
 }

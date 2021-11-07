@@ -21,7 +21,7 @@ namespace Adapter
         public virtual void GetEmployees()
         {
             XmlSerializer ser = new XmlSerializer(_employees.GetType());
-            TextWriter writer = new StreamWriter("D:\\xmlText",true);
+            TextWriter writer = new StreamWriter("D:\\xmlText.txt",true);
             ser.Serialize(writer,_employees);
         }
     }

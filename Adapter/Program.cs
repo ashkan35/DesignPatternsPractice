@@ -6,7 +6,7 @@ namespace Adapter
     {
         static void Main(string[] args)
         {
-            var employeeManager = new EmployeeManagerJson();
+            var employeeManager = new EmployeeManagerXml();
             employeeManager.GetEmployees();
             Console.WriteLine("finished");
         }
